@@ -1,0 +1,67 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+}
+
+#question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: Arial, sans-serif; /* Change font family */
+    font-size: 32px; /* Change font size */
+}
+
+.answer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.answer {
+    background-color: #e0e0e0; /* Background color for the answer div */
+    padding: 10px; /* Add padding to the answer div */
+    margin: 5px; /* Add margin between answer divs */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    font-family: Arial, sans-serif; /* Change font family */
+    font-size: 22px; /* Change font size */
+    padding-left: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+}
+
+#main_button {
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px 30px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Verdana', sans-serif;
+    font-size: 22px;
+}
+
+#main_button:hover {
+    background-color: #45a049;
+}
