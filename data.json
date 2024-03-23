@@ -1,0 +1,225 @@
+
+{
+    "questions": [
+    {
+        "question": "Which of the following is a major contributor to air pollution in cities?",
+        "options": {
+        "a": "Vehicle emissions",
+        "b": "Wind turbines",
+        "c": "Solar panels",
+        "d": "Bike lanes"
+        },
+        "correct_answer": "a",
+        "fun_fact": "The average car emits about 4.6 metric tons of carbon dioxide per year."
+    },
+    {
+        "question": "What is the primary cause of soil erosion?",
+        "options": {
+        "a": "Heavy rainfall",
+        "b": "Planting trees",
+        "c": "Using organic fertilizers",
+        "d": "Building terraces"
+        },
+        "correct_answer": "a",
+        "fun_fact": "Soil erosion removes about 25 billion tons of topsoil globally every year."
+    },
+    {
+        "question": "Which of the following is a renewable source of energy derived from the Earth's heat?",
+        "options": {
+        "a": "Oil",
+        "b": "Coal",
+        "c": "Geothermal energy",
+        "d": "Natural gas"
+        },
+        "correct_answer": "c",
+        "fun_fact": "The first geothermal power plant was built in Italy in 1904."
+    },
+    {
+        "question": "What is the primary cause of deforestation in the Amazon rainforest?",
+        "options": {
+        "a": "Urbanization",
+        "b": "Logging",
+        "c": "Conservation efforts",
+        "d": "Desertification"
+        },
+        "correct_answer": "b",
+        "fun_fact": "The Amazon rainforest produces 20% of the world's oxygen."
+    },
+    {
+        "question": "Which of the following is a consequence of ocean acidification?",
+        "options": {
+        "a": "Increased coral reef growth",
+        "b": "Enhanced shell formation in marine organisms",
+        "c": "Decline in marine biodiversity",
+        "d": "Expansion of coral reefs"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Ocean acidification is causing coral reefs to dissolve at an alarming rate."
+    },
+    {
+        "question": "What is the main cause of the hole in the ozone layer?",
+        "options": {
+        "a": "Deforestation",
+        "b": "Industrial pollution",
+        "c": "Volcanic eruptions",
+        "d": "Chlorofluorocarbons (CFCs)"
+        },
+        "correct_answer": "d",
+        "fun_fact": "The hole in the ozone layer over Antarctica is largest in September."
+    },
+    {
+        "question": "Which of the following is a renewable energy source generated from organic matter?",
+        "options": {
+        "a": "Coal",
+        "b": "Wind energy",
+        "c": "Biomass",
+        "d": "Nuclear energy"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Biomass energy can be produced from agricultural residues, wood, and even municipal solid waste."
+    },
+    {
+        "question": "What is the main cause of habitat loss for many species?",
+        "options": {
+        "a": "Afforestation",
+        "b": "Climate change",
+        "c": "Urbanization",
+        "d": "Wildlife conservation"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Urbanization is the leading cause of habitat loss for amphibians and reptiles."
+    },
+    {
+        "question": "Which of the following is a consequence of plastic pollution in oceans?",
+        "options": {
+        "a": "Increase in marine biodiversity",
+        "b": "Reduction in marine pollution",
+        "c": "Formation of plastic islands",
+        "d": "Harm to marine animals"
+        },
+        "correct_answer": "d",
+        "fun_fact": "Plastic pollution affects more than 700 marine species."
+    },
+    {
+        "question": "What is the primary source of indoor air pollution in many households?",
+        "options": {
+        "a": "Burning fossil fuels",
+        "b": "Indoor plants",
+        "c": "Air purifiers",
+        "d": "Natural ventilation"
+        },
+        "correct_answer": "a",
+        "fun_fact": "Indoor air pollution causes 3.8 million premature deaths annually."
+    },
+    {
+        "question": "Which of the following is a major source of water pollution?",
+        "options": {
+            "a": "Oil spills",
+            "b": "Industrial waste",
+            "c": "Plastic bags",
+            "d": "All of the above"
+        },
+        "correct_answer": "d",
+        "fun_fact": "All of the mentioned options contribute significantly to water pollution worldwide."
+    },
+    {
+        "question": "What is the main reason for the decline in biodiversity?",
+        "options": {
+            "a": "Pollution",
+            "b": "Climate change",
+            "c": "Habitat destruction",
+            "d": "Overpopulation"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Habitat destruction is the primary driver behind the decline in biodiversity worldwide."
+    },
+    {
+        "question": "Which gas is responsible for the depletion of the ozone layer?",
+        "options": {
+            "a": "Carbon dioxide",
+            "b": "Nitrogen oxide",
+            "c": "Chlorofluorocarbons (CFCs)",
+            "d": "Methane"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Chlorofluorocarbons (CFCs) are the primary contributors to ozone layer depletion."
+    },
+    {
+        "question": "What is the most abundant greenhouse gas in Earth's atmosphere?",
+        "options": {
+            "a": "Methane",
+            "b": "Carbon dioxide",
+            "c": "Water vapor",
+            "d": "Ozone"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Water vapor is the most abundant greenhouse gas in Earth's atmosphere, though it's not usually considered a pollutant."
+    },
+    {
+        "question": "Which of the following is a non-renewable resource?",
+        "options": {
+            "a": "Wind energy",
+            "b": "Geothermal energy",
+            "c": "Fossil fuels",
+            "d": "Biomass"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Fossil fuels such as coal, oil, and natural gas are finite resources and are considered non-renewable."
+    },
+    {
+        "question": "What is the main cause of ocean acidification?",
+        "options": {
+            "a": "Deforestation",
+            "b": "Air pollution",
+            "c": "Carbon emissions",
+            "d": "Oil spills"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Ocean acidification is primarily caused by the absorption of carbon dioxide from the atmosphere."
+    },
+    {
+        "question": "Which ecosystem is most at risk due to rising sea levels?",
+        "options": {
+            "a": "Tundra",
+            "b": "Coral reefs",
+            "c": "Grasslands",
+            "d": "Temperate forests"
+        },
+        "correct_answer": "b",
+        "fun_fact": "Coral reefs are highly sensitive to changes in sea level and are at significant risk due to rising ocean levels."
+    },
+    {
+        "question": "What is the primary cause of acid rain?",
+        "options": {
+            "a": "Carbon dioxide emissions",
+            "b": "Industrial emissions of sulfur dioxide and nitrogen oxides",
+            "c": "Volcanic eruptions",
+            "d": "Agricultural runoff"
+        },
+        "correct_answer": "b",
+        "fun_fact": "Acid rain is caused by emissions of sulfur dioxide and nitrogen oxides from industrial activities."
+    },
+    {
+        "question": "Which of the following is a consequence of eutrophication?",
+        "options": {
+            "a": "Increased fish population",
+            "b": "Decreased algal blooms",
+            "c": "Oxygen depletion in water",
+            "d": "Improved water clarity"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Eutrophication leads to oxygen depletion in water bodies, resulting in fish kills and other ecological imbalances."
+    },
+    {
+        "question": "What is the main source of indoor air pollution in developing countries?",
+        "options": {
+            "a": "Cooking with biomass fuels",
+            "b": "Tobacco smoke",
+            "c": "Industrial emissions",
+            "d": "Vehicle exhaust"
+        },
+        "correct_answer": "a",
+        "fun_fact": "Indoor air pollution in developing countries is often caused by the use of biomass fuels for cooking and heating."
+    }
+    ]
+}

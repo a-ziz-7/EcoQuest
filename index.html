@@ -13,22 +13,52 @@
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#missions">Missions</a></li>
+                <li><a href="#game">Game</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="about">
             <h2>About EcoQuest</h2>
-            <p>EcoQuest is an immersive and educational game designed to raise awareness about climate change...</p>
+            <p>
+                EcoQuest is an immersive and educational game developed for the Rutgers University Hackathon, 
+                aiming to raise awareness about climate change and environmental issues. Through interactive 
+                questions and quizzes, players are challenged to explore various aspects of climate science, 
+                energy conservation, waste reduction, and more. As players progress, they gain valuable insights 
+                into the causes and effects of climate change while discovering practical solutions and actions 
+                to make a positive impact. By combining education with entertainment, EcoQuest inspires players 
+                to become informed advocates for environmental stewardship and champions of a sustainable future, 
+                fostering dialogue and driving meaningful change in the fight against climate change.</p>
         </section>
         <section id="missions">
-            <h2>Our Missions</h2>
-            <p>Embark on a journey to tackle climate-related challenges...</p>
+            <h2>Missions</h2>
+            <p>Embark on a series of engaging missions within EcoQuest, each designed to tackle different aspects 
+                of climate change and environmental conservation. From exploring renewable energy sources to 
+                addressing plastic pollution, each mission presents a unique challenge and opportunity for players
+                to make a positive impact on the planet. Dive into interactive scenarios, solve environmental puzzles, 
+                and take decisive actions to combat global warming and protect our precious ecosystems. With each 
+                mission completed, players contribute to a collective effort to raise awareness, promote 
+                sustainability, and pave the way towards a greener, more resilient future for all. Join me on this 
+                quest to safeguard our planet and ensure a thriving environment for generations to come.</p>
+        </section>
+        <section id="game">
+            <h2>Game</h2>
+            <p>Play EcoQuest, the exciting game-quiz designed to test your knowledge and help save the planet. 
+                Answer six challenging questions related to climate change and environmental conservation to 
+                unlock valuable insights and become an environmental champion. Are you ready to make a difference?</p>
+            <button id="start-game-button" class="center-button" onclick="startGame()">Start Game</button>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 EcoQuest. All rights reserved.</p>
+        <div>&copy; 2024 EcoQuest. All rights reserved. ;)</div>
     </footer>
+    <script>
+        console.log('Hello from EcoQuest index.html!')
+        function startGame() {
+            window.location.href = 'game.html';
+        }
+    </script>
+
 </body>
 </html>
 
