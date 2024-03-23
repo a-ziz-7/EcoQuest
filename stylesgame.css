@@ -76,5 +76,5 @@ header h1 {
 }
 
 .unselectable {
-    user-select: none;
+    pointer-events: none;
 }

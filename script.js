@@ -55,14 +55,15 @@ function gameLoop() {
 
 function button() {
 	x = document.getElementById('ans');
-	if (x){
+	b = document.getElementById('main_button');
+	if (b.innerText == 'Submit') {
 		if (answer_id === correct_answer) {
 			console.log('Correct answer!');
 
 			// console.log(fun_fact);
 		} else {
 			console.log('Incorrect answer!');
-			
+
 			// console.log(fun_fact);
 		}
 		// x.innerHTML = '';
@@ -70,11 +71,19 @@ function button() {
 		const allAnswers = document.querySelectorAll('.answer');
 		console.log(allAnswers);
 		allAnswers.forEach(answer => {
-			answer.style.userSelect = 'none';
-			answer.style.webkitUserSelect = 'none'; /* Safari */
-			answer.style.MozUserSelect = 'none'; /* Firefox */
-			answer.style.msUserSelect = 'none'; /* Internet Explorer/Edge */
+			answer.classList.add('unselectable');
 		});
+		b.innerText = 'Next';
+	} else {
+		console.log('Next question!');
+		document.getElementById('fact').textContent = '';
+		const allAnswers = document.querySelectorAll('.answer');
+		console.log(allAnswers);
+		allAnswers.forEach(answer => {
+			answer.classList.remove('unselectable');
+		});
+		b.textContent = 'Submit';
+	
 	}
 }
 // // Start the game loop when the page loads
