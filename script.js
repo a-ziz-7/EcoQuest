@@ -1,7 +1,10 @@
-var questions = []; // Initialize an empty array to store the questions
+var questions = []; 
 answer_id = "a";
 correct_answer = "a";
 fun_fact = "";
+let turn = 0; // Initialize the turn counter
+let usedIndices = [];
+
 console.log('Hello from EcoQuest game.html!')
 
 fetch('data.json')
@@ -15,10 +18,11 @@ fetch('data.json')
     console.error('Error fetching JSON data:', error);
 });
 
-function generateQuestion(data) {
+function generateQuestion() {
+	data = questions[generateUniqueRandomIndex()];
 	document.getElementById('question').textContent = data.question;
 	
-	const answersContainer = document.getElementById('answers');
+	const answersContainer = document.getElementById('ans');
 	answersContainer.innerHTML = ''; // Clear the answers container before adding new answers
 	answersContainer.id = 'ans';
 	// console.log(data.options);
@@ -32,7 +36,7 @@ function generateQuestion(data) {
 			answer_id = this.id;
 			correct_answer = data.correct_answer;
 			fun_fact = data.fun_fact;
-			this.style.backgroundColor = '#7FFF00';
+			this.style.backgroundColor = 'cyan';
 			const allAnswers = document.querySelectorAll('.answer');
 			allAnswers.forEach(answer => {
 				if (answer !== this) {
@@ -48,28 +52,27 @@ function generateQuestion(data) {
 // Function to handle game loop
 function gameLoop() {
   console.log('Game loop started');
-  let turn = 0; // Initialize the turn counter
-  let index = questions.length - 1; // Get the last index of the questions array
-  generateQuestion(questions[0]); // Generate the first question for testing
+  generateQuestion(); // Generate the first question for testing
 }
 
 function button() {
 	x = document.getElementById('ans');
 	b = document.getElementById('main_button');
 	if (b.innerText == 'Submit') {
+		if (answer_id === "e") {
+			alert('Please select an answer!');
+			return;
+		}
 		if (answer_id === correct_answer) {
 			console.log('Correct answer!');
-
-			// console.log(fun_fact);
+			document.getElementById(answer_id).style.backgroundColor = '#7FFF00';
 		} else {
 			console.log('Incorrect answer!');
-
-			// console.log(fun_fact);
+			document.getElementById(answer_id).style.backgroundColor = 'red';
+			document.getElementById(correct_answer).style.backgroundColor = '#7FFF00';
 		}
-		// x.innerHTML = '';
 		document.getElementById('fact').textContent = fun_fact;
 		const allAnswers = document.querySelectorAll('.answer');
-		console.log(allAnswers);
 		allAnswers.forEach(answer => {
 			answer.classList.add('unselectable');
 		});
@@ -77,16 +80,25 @@ function button() {
 	} else {
 		console.log('Next question!');
 		document.getElementById('fact').textContent = '';
-		const allAnswers = document.querySelectorAll('.answer');
-		console.log(allAnswers);
-		allAnswers.forEach(answer => {
-			answer.classList.remove('unselectable');
-		});
+		// const allAnswers = document.querySelectorAll('.answer');
+		// console.log(allAnswers);
+		// allAnswers.forEach(answer => {
+		// 	answer.classList.remove('unselectable');
+		// });
+
 		b.textContent = 'Submit';
-	
+		generateQuestion(questions[0]);
 	}
 }
-// // Start the game loop when the page loads
-// window.onload = function() {
-//   gameLoop();
-// };
+
+function generateUniqueRandomIndex() {
+    let index = Math.floor(Math.random() * questions.length); // Generate a random index within the range of the questions array
+
+    // Check if the index has already been used
+    while (usedIndices.includes(index)) {
+        index = Math.floor(Math.random() * questions.length); // Regenerate the index
+    }
+	answer_id = "e";
+    usedIndices.push(index); // Add the index to the list of used indices
+    return index;
+}
