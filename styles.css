@@ -67,7 +67,7 @@ footer {
 
 .center-button {
     display: block;
-    margin: 0 auto; /* Center the button horizontally */
+    margin: 0 auto; 
     background-color: #4CAF50;
     color: #fff;
     padding: 10px 20px;

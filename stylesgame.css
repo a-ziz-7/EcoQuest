@@ -20,7 +20,16 @@ header h1 {
     margin: 0;
 }
 
-#question {
+#question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: Arial, sans-serif; /* Change font family */
+    font-size: 32px; /* Change font size */
+}
+
+#fact {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,4 +73,8 @@ header h1 {
 
 #main_button:hover {
     background-color: #45a049;
+}
+
+.unselectable {
+    user-select: none;
 }

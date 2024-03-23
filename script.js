@@ -1,5 +1,7 @@
 var questions = []; // Initialize an empty array to store the questions
-
+answer_id = "a";
+correct_answer = "a";
+fun_fact = "";
 console.log('Hello from EcoQuest game.html!')
 
 fetch('data.json')
@@ -18,23 +20,26 @@ function generateQuestion(data) {
 	
 	const answersContainer = document.getElementById('answers');
 	answersContainer.innerHTML = ''; // Clear the answers container before adding new answers
-	console.log(data.options);
+	answersContainer.id = 'ans';
+	// console.log(data.options);
 	for (let key in data.options) {
 		const answerDiv = document.createElement('div');
 		answerDiv.textContent = key + ") " + data.options[key];
 		answerDiv.className = 'answer';
 		answerDiv.id = ""+key;
 		answerDiv.addEventListener('click', function() {
-			console.log('Selected answer:', this.textContent);
-			// console.log('Selected answer id:', this.id);
-			// console.log('Correct answer:', data.correct_answer);
-			if (this.id === data.correct_answer) {
-				console.log('Correct answer!');
-				console.log(data.fun_fact);
-			} else {
-				console.log('Incorrect answer!');
-				console.log(data.fun_fact);
-			}
+			// console.log('Selected answer:', this.textContent);
+			answer_id = this.id;
+			correct_answer = data.correct_answer;
+			fun_fact = data.fun_fact;
+			this.style.backgroundColor = '#7FFF00';
+			const allAnswers = document.querySelectorAll('.answer');
+			allAnswers.forEach(answer => {
+				if (answer !== this) {
+					answer.style.backgroundColor = '#e0e0e0'; // Reset background color to default
+				}
+  			});
+			
 		});
 		answersContainer.appendChild(answerDiv);
 	}
@@ -48,6 +53,30 @@ function gameLoop() {
   generateQuestion(questions[0]); // Generate the first question for testing
 }
 
+function button() {
+	x = document.getElementById('ans');
+	if (x){
+		if (answer_id === correct_answer) {
+			console.log('Correct answer!');
+
+			// console.log(fun_fact);
+		} else {
+			console.log('Incorrect answer!');
+			
+			// console.log(fun_fact);
+		}
+		// x.innerHTML = '';
+		document.getElementById('fact').textContent = fun_fact;
+		const allAnswers = document.querySelectorAll('.answer');
+		console.log(allAnswers);
+		allAnswers.forEach(answer => {
+			answer.style.userSelect = 'none';
+			answer.style.webkitUserSelect = 'none'; /* Safari */
+			answer.style.MozUserSelect = 'none'; /* Firefox */
+			answer.style.msUserSelect = 'none'; /* Internet Explorer/Edge */
+		});
+	}
+}
 // // Start the game loop when the page loads
 // window.onload = function() {
 //   gameLoop();
