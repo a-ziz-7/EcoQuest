@@ -1,19 +1,17 @@
-var questions = []; 
-answer_id = "a";
-correct_answer = "a";
-fun_fact = "";
-turns = 6;
-correct = 0;
+var questions = []; // Initialize the questions array
+answer_id = "a"; // Initialize the answer dummy variable
+correct_answer = "a"; // Initialize the correct answer dummy variable
+fun_fact = ""; // Initialize the fun fact dummy variable
+turns = 6; // Number of questions in the quiz
+correct = 0; // Initialize the correct answers counter
 let turn = 0; // Initialize the turn counter
-let usedIndices = [];
-
-// console.log('Hello from EcoQuest game.html!')
+let usedIndices = []; // Initialize the array of used indices
 
 fetch('data.json')
   .then(response => response.json())
   .then(data => {
     questions = data.questions; 
-    gameLoop();
+    gameLoopStart();
   })
   .catch(error => {
     console.error('Error fetching JSON data:', error);
@@ -48,7 +46,7 @@ function generateQuestion() {
 	}
 }
 
-function gameLoop() {
+function gameLoopStart() {
 //   console.log('Game loop started');
   generateQuestion(); 
 }
