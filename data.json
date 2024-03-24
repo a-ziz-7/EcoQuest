@@ -219,6 +219,193 @@
         },
         "correct_answer": "a",
         "fun_fact": "Indoor air pollution in developing countries is often caused by the use of biomass fuels for cooking and heating."
-    }
+    },
+    {
+        "question": "What is the main source of energy for the Earth?",
+        "options": {
+            "a": "Coal",
+            "b": "Wind",
+            "c": "Sunlight",
+            "d": "Moonlight"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Sunlight is the primary source of energy for the Earth, driving weather, climate, and photosynthesis."
+    },
+    {
+        "question": "Which gas do plants use for photosynthesis?",
+        "options": {
+            "a": "Oxygen",
+            "b": "Nitrogen",
+            "c": "Carbon dioxide",
+            "d": "Helium"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Plants use carbon dioxide during photosynthesis to produce oxygen and glucose."
+    },
+    {
+        "question": "What is the primary component of the Earth's atmosphere?",
+        "options": {
+            "a": "Water vapor",
+            "b": "Oxygen",
+            "c": "Nitrogen",
+            "d": "Carbon dioxide"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Nitrogen makes up about 78% of the Earth's atmosphere by volume."
+    },
+    {
+        "question": "What is the main reason behind the changing of seasons on Earth?",
+        "options": {
+            "a": "Earth's tilt",
+            "b": "The Moon",
+            "c": "Global warming",
+            "d": "Sun's brightness"
+        },
+        "correct_answer": "a",
+        "fun_fact": "The changing of seasons is primarily caused by the Earth's tilt relative to its orbit around the Sun."
+    },
+    {
+        "question": "What percentage of global carbon dioxide emissions is attributed to the transportation sector?",
+        "options": {
+            "a": "12%",
+            "b": "24%",
+            "c": "36%",
+            "d": "48%"
+        },
+        "correct_answer": "b",
+        "fun_fact": "The transportation sector accounts for approximately 24% of global CO2 emissions."
+    },
+    {
+        "question": "How many metric tons of plastic waste enter the oceans each year?",
+        "options": {
+            "a": "2 million",
+            "b": "5 million",
+            "c": "8 million",
+            "d": "10 million"
+        },
+        "correct_answer": "c",
+        "fun_fact": "An estimated 8 million metric tons of plastic waste enter the oceans each year."
+    },
+    {
+        "question": "What percentage of the world's plant and animal species are currently threatened with extinction?",
+        "options": {
+            "a": "10%",
+            "b": "25%",
+            "c": "40%",
+            "d": "50%"
+        },
+        "correct_answer": "b",
+        "fun_fact": "Approximately 25% of the world's plant and animal species are currently threatened with extinction."
+    },
+    {
+        "question": "How much forest did the Amazon rainforest lose in 2020?",
+        "options": {
+            "a": "5,000 square kilometers",
+            "b": "8,000 square kilometers",
+            "c": "11,000 square kilometers",
+            "d": "14,000 square kilometers"
+        },
+        "correct_answer": "c",
+        "fun_fact": "The Amazon rainforest lost approximately 11,088 square kilometers of tree cover in 2020."
+      },
+      {
+        "question": "What percentage of global greenhouse gas emissions is attributed to agriculture?",
+        "options": {
+            "a": "10%",
+            "b": "20%",
+            "c": "30%",
+            "d": "40%"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Agriculture accounts for approximately 30% of global greenhouse gas emissions."
+      },
+      {
+        "question": "How many metric tons of CO2 emissions were produced globally in 2019?",
+        "options": {
+            "a": "30 billion metric tons",
+            "b": "36 billion metric tons",
+            "c": "42 billion metric tons",
+            "d": "48 billion metric tons"
+        },
+        "correct_answer": "b",
+        "fun_fact": "Global carbon dioxide emissions reached 36.8 billion metric tons in 2019, a record high."
+      },
+      {
+        "question": "What percentage of the world's population lacks access to safely managed drinking water services?",
+        "options": {
+            "a": "10%",
+            "b": "20%",
+            "c": "30%",
+            "d": "40%"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Around 30% of the world's population lacks access to safely managed drinking water services."
+      },
+      {
+        "question": "How much plastic waste is estimated to be in the Great Pacific Garbage Patch?",
+        "options": {
+            "a": "1.2 trillion pieces",
+            "b": "1.8 trillion pieces",
+            "c": "2.4 trillion pieces",
+            "d": "3.0 trillion pieces"
+        },
+        "correct_answer": "b",
+        "fun_fact": "The Great Pacific Garbage Patch contains over 1.8 trillion pieces of plastic."
+      },
+      {
+        "question": "Which greenhouse gas is primarily responsible for trapping heat in the Earth's atmosphere?",
+        "options": {
+            "a": "Carbon dioxide (CO2)",
+            "b": "Methane (CH4)",
+            "c": "Nitrous oxide (N2O)",
+            "d": "Water vapor (H2O)"
+        },
+        "correct_answer": "a",
+        "fun_fact": "Carbon dioxide (CO2) is the primary greenhouse gas responsible for anthropogenic climate change."
+      },
+      {
+        "question": "What is the main cause of the increase in atmospheric carbon dioxide levels over the past century?",
+        "options": {
+            "a": "Deforestation",
+            "b": "Burning fossil fuels",
+            "c": "Volcanic eruptions",
+            "d": "Industrial agriculture"
+        },
+        "correct_answer": "b",
+        "fun_fact": "Burning fossil fuels for energy and transportation is the primary cause of increased CO2 levels."
+      },
+      {
+        "question": "Which region of the world is experiencing the most rapid warming due to climate change?",
+        "options": {
+            "a": "Arctic",
+            "b": "Antarctica",
+            "c": "Sahara Desert",
+            "d": "Amazon Rainforest"
+        },
+        "correct_answer": "a",
+        "fun_fact": "The Arctic region is warming at more than twice the global average rate."
+      },
+      {
+        "question": "What is the primary cause of sea level rise?",
+        "options": {
+            "a": "Melting ice caps and glaciers",
+            "b": "Undersea volcanic activity",
+            "c": "Land subsidence",
+            "d": "Changes in ocean currents"
+        },
+        "correct_answer": "a",
+        "fun_fact": "Melting ice caps and glaciers contribute the most to rising sea levels."
+      },
+      {
+        "question": "What is the term used to describe the phenomenon where the Earth's climate becomes warmer than normal over an extended period?",
+        "options": {
+            "a": "Global cooling",
+            "b": "Greenhouse effect",
+            "c": "Global warming",
+            "d": "Ozone depletion"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Global warming refers to the long-term increase in Earth's average surface temperature."
+      }
     ]
 }
