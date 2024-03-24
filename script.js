@@ -81,7 +81,7 @@ function button() {
 		document.getElementById('fact').textContent = '';
 		turn++;
 		if (turn == turns) {
-			alert('Game Over!\nCongratulations on completing the quiz!\nYou got ' + correct + ' out of ' + turns + ' questions correct.\nKeep learning and exploring the wonders of our natural world!');
+			alert('Congratulations on completing the quiz!\nYou got ' + correct + ' out of ' + turns + ' questions correct.\nKeep learning and exploring the wonders of our natural world!');
 			window.location.href = 'index.html';
 			return;
 		}
