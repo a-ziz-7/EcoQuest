@@ -7,7 +7,7 @@ correct = 0;
 let turn = 0; // Initialize the turn counter
 let usedIndices = [];
 
-console.log('Hello from EcoQuest game.html!')
+// console.log('Hello from EcoQuest game.html!')
 
 fetch('data.json')
   .then(response => response.json())
@@ -49,7 +49,7 @@ function generateQuestion() {
 }
 
 function gameLoop() {
-  console.log('Game loop started');
+//   console.log('Game loop started');
   generateQuestion(); 
 }
 
@@ -62,11 +62,9 @@ function button() {
 			return;
 		}
 		if (answer_id === correct_answer) {
-			console.log('Correct answer!');
 			document.getElementById(answer_id).style.backgroundColor = '#7FFF00';
 			correct++;
 		} else {
-			console.log('Incorrect answer!');
 			document.getElementById(answer_id).style.backgroundColor = 'red';
 			document.getElementById(correct_answer).style.backgroundColor = '#7FFF00';
 		}
@@ -77,7 +75,7 @@ function button() {
 		});
 		b.innerText = 'Next';
 	} else {
-		console.log('Next question!');
+		// console.log('Next question!');
 		document.getElementById('fact').textContent = '';
 		turn++;
 		if (turn == turns) {
