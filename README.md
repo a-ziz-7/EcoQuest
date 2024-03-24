@@ -12,8 +12,8 @@ EcoQuest is a project aimed at promoting environmental awareness and sustainabil
 2. Start the application: `npm start`
 
 ## Usage
-1. Avaliable at: `https://eco-quest.study/`
-2. Avaliable at: `https://a-ziz-7.github.io/EcoQuest/`
+1. Avaliable at: [Website]("https://eco-quest.study/")
+2. Avaliable at: [GitHub-Pages]("https://a-ziz-7.github.io/EcoQuest/")
 
 ## Contributing
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
