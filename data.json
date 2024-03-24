@@ -406,6 +406,39 @@
         },
         "correct_answer": "c",
         "fun_fact": "Global warming refers to the long-term increase in Earth's average surface temperature."
+      },
+      {
+        "question": "What is the primary cause of ocean dead zones?",
+        "options": {
+          "a": "Excessive nutrient runoff",
+          "b": "Industrial waste dumping",
+          "c": "Overfishing",
+          "d": "Natural climate variability"
+        },
+        "correct_answer": "a",
+        "fun_fact": "Excessive nutrient runoff from agricultural and urban areas leads to algal blooms and subsequent oxygen depletion in ocean dead zones."
+      },
+      {
+        "question": "Which type of pollution is responsible for the decline in global amphibian populations?",
+        "options": {
+          "a": "Air pollution",
+          "b": "Light pollution",
+          "c": "Water pollution",
+          "d": "Noise pollution"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Water pollution, including chemical contaminants and habitat degradation, is a major threat to amphibians worldwide."
+      },
+      {
+        "question": "What is the primary cause of habitat loss in tropical rainforests?",
+        "options": {
+          "a": "Mining operations",
+          "b": "Tourism",
+          "c": "Illegal logging",
+          "d": "Sustainable agriculture practices"
+        },
+        "correct_answer": "c",
+        "fun_fact": "Illegal logging for timber extraction and agricultural expansion are significant drivers of tropical rainforest habitat loss."
       }
     ]
 }
