@@ -3,7 +3,7 @@
 ## Description
 EcoQuest is a project aimed at promoting environmental awareness and sustainability. It provides users with a platform to learn about eco-friendly practices, track their progress, and contribute to a greener world.
 
-## Features
+## Current Features
 - Interactive learning modules on various environmental topics
 - Eco-friendly challenges for various topics
 
