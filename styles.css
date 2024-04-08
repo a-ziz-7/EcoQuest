@@ -54,7 +54,14 @@ p {
     font-size: 1.1vw;
 }
 
-li, footer{
+li {
+    font-family: 'Verdana', sans-serif;
+    color: #333;
+    font-size: 1.4vw;
+
+}
+
+section, footer{
     font-size: 1.1vw;
 
 }
