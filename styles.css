@@ -54,6 +54,11 @@ p {
     font-size: 1.1vw;
 }
 
+section li {
+    font-size: 1.1vw;
+
+}
+
 section {
     margin-bottom: 40px;
 }
