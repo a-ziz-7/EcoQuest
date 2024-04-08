@@ -11,7 +11,7 @@ body {
 h1 {
     font-size: 2.0vw;
     @media (max-width: 480px) {
-        font-size: 4vw;
+        font-size: 6vw;
     }
 }
 
