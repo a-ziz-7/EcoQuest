@@ -10,6 +10,9 @@ body {
 }
 h1 {
     font-size: 2.0vw;
+    @media (max-width: 480px) {
+        font-size: 4vw;
+    }
 }
 
 header {
@@ -32,8 +35,10 @@ header h1 {
     font-size: 2.6vw; 
     @media (max-width: 768px) {
         padding: 20px;
+        font-size: 2vw;
     }
     @media (max-width: 480px) {
+        font-size: 2vw;
         padding: 20px;
     }
 
@@ -47,6 +52,9 @@ header h1 {
     padding: 30px;
     font-family: Arial, sans-serif;
     font-size: 2vw;
+    @media (max-width: 480px) {
+        font-size: 5vw;
+    }
 }
 
 .answer-container {
@@ -101,7 +109,7 @@ header h1 {
     font-family: 'Verdana', sans-serif;
     font-size: 1.5vw;
     @media (max-width: 480px) {
-        font-size: 5vw;
+        font-size: 3vw;
         padding: 10px 20px;
         margin-top: 20px;
         /* padding-left: 5vw;
