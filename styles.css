@@ -56,7 +56,7 @@ p {
     color: #333;
     font-size: 1.1vw;
     @media (max-width: 480px) {
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
 }
 
@@ -65,7 +65,7 @@ li {
     color: #333;
     font-size: 1.4vw;
     @media (max-width: 480px) {
-        font-size: 5vw;
+        font-size: 3vw;
     }
 
 }
@@ -77,6 +77,9 @@ footer{
 
 section {
     margin-bottom: 40px;
+    @media (max-width: 480px) {
+        margin-bottom: 20px;
+    }
 }
 
 footer {
@@ -85,6 +88,9 @@ footer {
     text-align: center;
     padding: 20px;
     font-family: 'Verdana', sans-serif;
+    @media (max-width: 480px) {
+        font-size: 1vw;
+    }
     /* margin-top: 5%;  */
 }
 
