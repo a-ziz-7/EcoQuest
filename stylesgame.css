@@ -59,6 +59,11 @@ header h1 {
     cursor: pointer;
     border-radius: 5px; 
     font-family: Arial, sans-serif; 
+    font-size: 1.5vw; 
+    padding-left: 2vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 1vw;
     @media (max-width: 480px) {
         font-size: 5vw;
         padding-left: 3vw;
@@ -66,11 +71,7 @@ header h1 {
         margin-right: 4vw;
         margin-bottom: 2vw;
     }
-    font-size: 1.5vw; 
-    padding-left: 2vw;
-    margin-left: 3vw;
-    margin-right: 3vw;
-    margin-bottom: 1vw;
+    
 }
 /* .answer {
     background-color: #e0e0e0;
