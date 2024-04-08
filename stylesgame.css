@@ -59,6 +59,9 @@ header h1 {
     cursor: pointer;
     border-radius: 5px; 
     font-family: Arial, sans-serif; 
+    @media (max-width: 480px) {
+        font-size: 2.5vw;
+    }
     font-size: 1.5vw; 
     padding-left: 2vw;
     margin-left: 3vw;
