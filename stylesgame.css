@@ -55,8 +55,8 @@ header h1 {
 }
 
 .answer {
-    background-color: #e0e0e0; /* Background color for the answer div */
-    padding: 10px; /* Add padding to the answer div */
+    background-color: #e0e0e0;
+    padding: 10px;
     margin: 5px;
     cursor: pointer;
     border-radius: 5px; 
