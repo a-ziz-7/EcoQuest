@@ -52,12 +52,18 @@ p {
     font-family: 'Verdana', sans-serif;
     color: #333;
     font-size: 1.1vw;
+    @media (max-width: 480px) {
+        font-size: 5vw;
+    }
 }
 
 li {
     font-family: 'Verdana', sans-serif;
     color: #333;
-    font-size: 10.4vw;
+    font-size: 1.4vw;
+    @media (max-width: 480px) {
+        font-size: 5vw;
+    }
 
 }
 
