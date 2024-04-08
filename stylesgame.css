@@ -28,6 +28,13 @@ header h1 {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    @media (max-width: 768px) {
+        padding: 20px;
+    }
+    @media (max-width: 480px) {
+        padding: 10px;
+    }
+
     font-family: Arial, sans-serif; /* Change font family */
     font-size: 2.3vw; 
 }
@@ -52,9 +59,10 @@ header h1 {
     padding: 10px; /* Add padding to the answer div */
     margin: 5px; /* Add margin between answer divs */
     cursor: pointer; /* Change cursor to pointer on hover */
-    border-radius: 5px; /* Add border radius for rounded corners */
-    font-family: Arial, sans-serif; /* Change font family */
+    border-radius: 5px; 
+    font-family: Arial, sans-serif; 
     font-size: 1.5vw; 
+
     padding-left: 30px;
     margin-left: 50px;
     margin-right: 50px;
