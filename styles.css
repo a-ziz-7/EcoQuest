@@ -56,7 +56,7 @@ p {
     color: #333;
     font-size: 1.1vw;
     @media (max-width: 480px) {
-        font-size: 1.5vw;
+        font-size: 2vw;
     }
 }
 
