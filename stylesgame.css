@@ -52,7 +52,8 @@ header h1 {
     font-family: Arial, sans-serif;
     font-size: 2vw;
     @media (max-width: 480px) {
-        font-size: 10vw;
+        font-size: 5vw;
+        padding: 2vw;
     }
 }
 
