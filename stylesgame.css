@@ -82,19 +82,6 @@ header h1 {
     }
     
 }
-/* .answer {
-    background-color: #e0e0e0;
-    padding: 10px;
-    margin: 5px;
-    cursor: pointer;
-    border-radius: 5px; 
-    font-family: Arial, sans-serif; 
-    font-size: 1.5vw; 
-    padding-left: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 15px;
-} */
 
 #main_button {
     display: block;
@@ -112,10 +99,6 @@ header h1 {
         font-size: 3vw;
         padding: 10px 20px;
         margin-top: 20px;
-        /* padding-left: 5vw;
-        margin-left: 4vw;
-        margin-right: 4vw;
-        margin-bottom: 3vw; */
     }
 }
 
